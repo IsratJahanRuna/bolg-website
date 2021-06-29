@@ -17,7 +17,7 @@ const BlogDetails = ({blog}) => {
                 <img  style={{height: '200px', width: '200px'}} className="img-fluid mb-3 img-animation" src={`http://localhost:5000//${blog.img}`} alt=""/>
             }
             </div>
-            <div style= {{backgroundColor:'#ffb380', color:'white'}} class="card-body fw-bolder">
+            <div style= {{backgroundColor:'#fdfff7', color:'white'}} class="card-body fw-bolder">
                 <h3 onClick={() => handleSee (blog._id)} class="card-title ">{blog.blogTitle}</h3>
                 <small>blogContent: {blog.blogContent}</small>
                 <br />
